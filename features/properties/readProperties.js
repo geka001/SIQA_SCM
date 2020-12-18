@@ -9,6 +9,7 @@ module.exports = {
     portal_url: prop.get("apiportal_url"),
     username: prop.get("username"),
     password: prop.get("password"),
+    comment: prop.get("comment123"),
 
     runtimeData: function(){
         var apikeyDetails = [];
