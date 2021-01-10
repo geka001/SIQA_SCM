@@ -36,7 +36,6 @@ exports.config= {
         fs.unlink(path.join(mergedoutput, "results.html"), err => {
             // if (err) throw err;
         });
-
         
         fs.unlink(path.join(mergedoutput, "merged-output.json"), err => {
             // if (err) throw err;
