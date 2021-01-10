@@ -1,5 +1,4 @@
 var reporter = require('cucumber-html-reporter');
-
 var options = {
     theme: 'bootstrap',
     jsonFile: './cucumberreport.json',
