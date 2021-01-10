@@ -4,9 +4,9 @@ name: Automation CI
 on:
   #workflow_dispatch:
   push:
-    branches: [ master ]
+    branches: [ dev ]
   pull_request:
-    branches: [ master ]
+    branches: [ dev ]
 
 jobs:
   CICD-bvt:
